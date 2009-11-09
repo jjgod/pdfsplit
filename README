@@ -24,7 +24,7 @@ usage: pdfsplit input.pdf splitPageNum1 splitPageNum2 ...
     must not exceed the number of pages of the input file, and the
     entire sequence must be strictly increasing.
 
-Example: splitPDF input.pdf 3 5
+Example: pdfsplit input.pdf 3 5
 
 This will split file input.pdf into 3 files (assuming input.pdf is 10
 pages long):

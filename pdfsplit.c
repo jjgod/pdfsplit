@@ -16,7 +16,7 @@ int usage()
            "  - splitPageNum1, ...: each one is a positive integer; the numbers\n"
            "    must not exceed the number of pages of the input file, and the\n"
            "    entire sequence must be strictly increasing.\n\n"
-           "Example: splitPDF input.pdf 3 5\n\n"
+           "Example: pdfsplit input.pdf 3 5\n\n"
            "This will split file input.pdf into 3 files (assuming input.pdf is 10\n"
            "pages long):\n\n"
            "  - input.1-3.pdf contains page 1-3;\n"
